@@ -10,7 +10,6 @@ var handlebars = require('gulp-compile-handlebars');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
 var inlinesource = require('gulp-inline-source');
-var jscs = require('gulp-jscs');
 var jshint = require('gulp-jshint');
 var layouts = require('handlebars-layouts');
 var plumber = require('gulp-plumber');
@@ -74,7 +73,6 @@ gulp.task('js:build', function() {
 gulp.task('js:lint', function() {
   return gulp.src(['./src/js/**/*.js', '!./src/js/lib/**/*.js', 'Gulpfile.js'])
     .pipe(plumber())
-      .pipe(jscs())
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
