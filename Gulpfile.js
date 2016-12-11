@@ -31,7 +31,9 @@ handlebars.Handlebars.registerHelper(layouts(handlebars.Handlebars));
 gulp.task('sass:lint', function() {
   gulp.src('./src/sass/*.scss')
     .pipe(plumber())
-    .pipe(scsslint());
+    .pipe(scsslint({
+      'config': 'scss-lint-config.yml'
+    }));
 });
 
 gulp.task('sass:build', function() {
