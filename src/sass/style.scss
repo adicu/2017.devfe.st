@@ -5,3 +5,121 @@
 @import 'base';
 @import 'layout';
 @import 'responsive';
+
+.d-f-wrapper {
+  box-shadow: none;
+  display: block;
+  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  transition: 0.3s all;
+  width: 100%;
+  z-index: 1;
+
+  &:hover {
+    box-shadow: 0 0 15px $light-gray;
+    transition: 0.15s all;
+  }
+
+  .d, .f {
+    display: inline-block;
+    height: 3rem;
+    padding: 0 2px;
+    transition: 0.8s ease all;
+
+    &.hovering {
+      transform: rotate3d(0, 1, 0, 360deg);
+    }
+  }
+
+  .d.hovering {
+    transform-origin: 25% 50%;
+  }
+
+  .f.hovering {
+    transform-origin: 75% 50%;
+  }
+}
+
+.landing-page {
+  background: linear-gradient(135deg, #fff, rgb(153,209,212));
+  height: 100%;
+  position: relative;
+  text-align: center;
+
+	.lion {
+    // animation: lion-fade-in 2s ease both;
+    // -webkit-animation: lion-fade-in 2s ease both;
+
+    height: 40%;
+    left: 50%;
+		position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .lion-wrapper {
+      height: 100%;
+    }
+	}
+
+  .info-text {
+    margin: 2rem auto;
+
+    h3 {
+      font-family: $mono;
+      font-size: 1.25rem;
+      text-align: center;
+    }
+  }
+
+  .hero-text {
+    animation: fade-in-scale 1.5s ease both;
+    -webkit-animation: fade-in-scale 1.5s ease both;
+
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    h1 {
+      text-shadow: 5px 5px #3a6;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade-in-scale {
+  0%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0) }
+  25%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0) }
+  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0) }
+}
+
+@-webkit-keyframes fade-in-scale {
+  0%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0) }
+  25%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0)  }
+  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0) }
+}
+
+@keyframes lion-fade-in {
+  0%{ opacity: 0; transform: scale(2) translate3d(-15%, -15%, 0) }
+  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -50%, 0) }
+}
+
+@-webkit-keyframes lion-fade-in {
+  0%{ opacity: 0; transform: scale(2) translate3d(-15%, -15%, 0) }
+  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -50%, 0) }
+}
+

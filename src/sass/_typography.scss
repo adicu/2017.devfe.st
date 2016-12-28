@@ -1,17 +1,24 @@
+@import 'colors';
+
 // Font weights
-$extra-bold: 800;
+$extra-bold: 900;
 $bold: 700;
 $medium: 500;
 $regular: 400;
 $light: 300;
 
-$sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans: 'Roboto', Helvetica, sans-serif;
+$mono: 'Roboto Mono', monospace;
 
 h1, %h1 {
-  font-size: 2.25rem;
-  font-weight: $light;
-  letter-spacing: 0.5px;
-  margin-bottom: 2.5rem;
+  color: $black;
+  font-family: $sans;
+  font-size: 10rem;
+  font-weight: $extra-bold;
+  font-style: italic;
+  letter-spacing: -2px;
+  line-height: 12rem;
+  margin: 0;
 }
 
 h2, %h2 {
@@ -25,12 +32,14 @@ h2, %h2 {
 
 h3, %h3 {
   font-size: 1.5rem;
+  font-family: $sans;
   letter-spacing: 0.5px;
 }
 
 h4, %h4 {
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
+  font-family: $mono;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
 h5, %h5 {
@@ -48,10 +57,6 @@ strong {
 
 @media screen and (max-width: $phone-landscape-max) {
   h1, %h1 {
-    font-size: 1.75rem;
-  }
-
-  h4, %h4 {
-    font-size: 1.5rem;
+    font-size: 6rem;
   }
 }
