@@ -43,7 +43,9 @@
 }
 
 .landing-page {
-  background: linear-gradient(135deg, $white, $teal);
+  animation: animate-bg-gradient 1.5s ease both;
+  background: linear-gradient(135deg, $light-gray, $white, $teal);
+  background-size: 200%;
   height: 100%;
   position: relative;
   text-align: center;
@@ -147,13 +149,18 @@
 
 
 @keyframes fade-in-scale {
-  0% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
+   0% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
   25% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
   100% { opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0); }
 }
 
+@keyframes animate-bg-gradient {
+    0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
 @keyframes devfest {
-  0% { text-shadow: 5px 5px $green, 10px 10px $yellow; }
+   0% { text-shadow: 5px 5px $green, 10px 10px $yellow; }
   11% { text-shadow: 1px 1px $yellow, 6px 6px $green, 10px 10px $yellow; }
   22% { text-shadow: 2px 2px $yellow, 7px 7px $green, 10px 10px $yellow; }
   33% { text-shadow: 3px 3px $yellow, 8px 8px $green, 10px 10px $yellow; }
