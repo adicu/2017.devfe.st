@@ -14,8 +14,8 @@ h1, %h1 {
   color: $black;
   font-family: $sans;
   font-size: 10rem;
-  font-weight: $extra-bold;
   font-style: italic;
+  font-weight: $extra-bold;
   letter-spacing: -2px;
   line-height: 12rem;
   margin: 0;
@@ -31,8 +31,8 @@ h2, %h2 {
 }
 
 h3, %h3 {
-  font-size: 1.5rem;
   font-family: $sans;
+  font-size: 1.5rem;
   letter-spacing: 0.5px;
 }
 

@@ -42,18 +42,15 @@
 }
 
 .landing-page {
-  background: linear-gradient(135deg, #fff, rgb(153,209,212));
+  background: linear-gradient(135deg, $white, $teal);
   height: 100%;
   position: relative;
   text-align: center;
 
-	.lion {
-    // animation: lion-fade-in 2s ease both;
-    // -webkit-animation: lion-fade-in 2s ease both;
-
+  .lion {
     height: 40%;
     left: 50%;
-		position: absolute;
+    position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
 
@@ -74,7 +71,6 @@
 
   .hero-text {
     animation: fade-in-scale 1.5s ease both;
-    -webkit-animation: fade-in-scale 1.5s ease both;
 
     left: 50%;
     position: absolute;
@@ -83,43 +79,90 @@
     transform: translate(-50%, -50%);
     width: 80%;
 
-    h1 {
-      text-shadow: 5px 5px #3a6;
+    h1:hover {
+      animation: devfest 0.75s ease infinite;
+      text-shadow: 5px 5px $green, 10px 10px $yellow;
+    }
+  }
+
+  .links {
+    bottom: 10%;
+    font-family: $mono;
+    left: 50%;
+    line-height: 2rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    .left, .right {
+      bottom: 0;
+      position: absolute;
+    }
+
+    .right {
+      right: 0;
+    }
+
+    .baby-logo {
+      height: 2rem;
+    }
+  }
+}
+
+.two-px {
+  margin-left: 2px;
+}
+
+a {
+  color: $gray;
+  display: inline-block;
+  font-family: $mono;
+  margin: 0 2px;
+  position: relative;
+
+  &::after {
+    background-color: $transparent;
+    border-radius: 10px;
+    bottom: 1px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+    transition: 0.3s ease all;
+    width: 10%;
+  }
+
+  &:hover {
+    color: darken($gray, 10%);
+
+    &::after {
+      background-color: $green;
+      left: -5px;
+      width: calc(100% + 10px);
     }
   }
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
 @keyframes fade-in-scale {
-  0%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0) }
-  25%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0) }
-  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0) }
+  0% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
+  25% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
+  100% { opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0); }
 }
 
-@-webkit-keyframes fade-in-scale {
-  0%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0) }
-  25%{ opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0)  }
-  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0) }
+@keyframes devfest {
+  0% { text-shadow: 5px 5px $green, 10px 10px $yellow; }
+  11% { text-shadow: 1px 1px $yellow, 6px 6px $green, 10px 10px $yellow; }
+  22% { text-shadow: 2px 2px $yellow, 7px 7px $green, 10px 10px $yellow; }
+  33% { text-shadow: 3px 3px $yellow, 8px 8px $green, 10px 10px $yellow; }
+  44% { text-shadow: 4px 4px $yellow, 9px 9px $green, 10px 10px $yellow; }
+  55% { text-shadow: 5px 5px $yellow, 10px 10px $green; }
+  66% { text-shadow: 4px 4px $yellow, 9px 9px $green, 10px 10px $yellow; }
+  77% { text-shadow: 3px 3px $yellow, 8px 8px $green, 10px 10px $yellow; }
+  88% { text-shadow: 2px 2px $yellow, 7px 7px $green, 10px 10px $yellow; }
+  100% { text-shadow: 1px 1px $yellow, 6px 6px $green, 10px 10px $yellow; }
 }
 
-@keyframes lion-fade-in {
-  0%{ opacity: 0; transform: scale(2) translate3d(-15%, -15%, 0) }
-  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -50%, 0) }
-}
 
-@-webkit-keyframes lion-fade-in {
-  0%{ opacity: 0; transform: scale(2) translate3d(-15%, -15%, 0) }
-  100%{ opacity: 1; transform: scale(1) translate3d(-50%, -50%, 0) }
-}
 
