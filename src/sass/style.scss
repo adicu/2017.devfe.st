@@ -25,10 +25,11 @@
     display: inline-block;
     height: 3rem;
     padding: 0 2px;
+    transform: rotateY(0deg);
     transition: 0.8s ease all;
 
     &.hovering {
-      transform: rotate3d(0, 1, 0, 360deg);
+      transform: rotateY(360deg);
     }
   }
 
@@ -106,41 +107,41 @@
     .baby-logo {
       height: 2rem;
     }
+
+    a {
+      color: $gray;
+      display: inline-block;
+      font-family: $mono;
+      margin: 0 2px;
+      position: relative;
+
+      &::after {
+        background-color: $transparent;
+        border-radius: 10px;
+        bottom: 1px;
+        content: '';
+        height: 2px;
+        left: 45%;
+        position: absolute;
+        transition: 0.3s ease all;
+        width: 10%;
+      }
+
+      &:hover {
+        color: darken($gray, 10%);
+
+        &::after {
+          background-color: $green;
+          left: -5px;
+          width: calc(100% + 10px);
+        }
+      }
+    }
   }
 }
 
 .two-px {
   margin-left: 2px;
-}
-
-a {
-  color: $gray;
-  display: inline-block;
-  font-family: $mono;
-  margin: 0 2px;
-  position: relative;
-
-  &::after {
-    background-color: $transparent;
-    border-radius: 10px;
-    bottom: 1px;
-    content: '';
-    height: 2px;
-    left: 45%;
-    position: absolute;
-    transition: 0.3s ease all;
-    width: 10%;
-  }
-
-  &:hover {
-    color: darken($gray, 10%);
-
-    &::after {
-      background-color: $green;
-      left: -5px;
-      width: calc(100% + 10px);
-    }
-  }
 }
 
 
