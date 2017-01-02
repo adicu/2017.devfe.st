@@ -18,6 +18,7 @@ var rename = require('gulp-rename');
 var replace = require('gulp-replace');
 var sass = require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
+var shell = require('gulp-shell');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var yaml = require('js-yaml');
