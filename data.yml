@@ -1,12 +1,12 @@
 meta:
-  title: ""
-  description: ""
-  facebook_image: ""  # /img/facebook.png
-  twitter_image: ""  # /img/twitter.png
-  image: ""  # /img/share.png
-  twitter_handle: ""  # @minimill_co
-  domain: ""  # minimill.co
-  url: ""  # https://minimill.co
+  title: "DevFest 2017"
+  description: "Columbia's annual week-long workshop series and hackathon: Jan 30 - Feb 4, 2017"
+  facebook_image: "/img/lion.png"  # /img/facebook.png
+  twitter_image: "/img/lion.png"  # /img/twitter.png
+  image: "/img/lion.png"  # /img/share.png
+  twitter_handle: "@adicu"  # @minimill_co
+  domain: "devfe.st"  # minimill.co
+  url: "http://devfe.st"  # https://minimill.co
   google_analytics_id: "" # UA-66637918-1
   theme_color: "" # #FFFFFF
 
