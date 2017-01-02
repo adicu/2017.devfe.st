@@ -43,10 +43,11 @@
 }
 
 .landing-page {
-  animation: animate-bg-gradient 1.5s ease both;
   background: linear-gradient(135deg, $light-gray, $white, $teal);
-  background-size: 200%;
+  background-position: 100% 100%;
+  background-size: 150%;
   height: 100%;
+  min-height: 600px;
   position: relative;
   text-align: center;
 
@@ -54,7 +55,7 @@
     height: 40%;
     left: 50%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
 
     .lion-wrapper {
@@ -78,13 +79,59 @@
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
     width: 80%;
+  }
 
-    h1:hover {
-      animation: devfest 0.75s ease infinite;
-      text-shadow: 5px 5px $green, 10px 10px $yellow;
+  .register {
+    background: linear-gradient(180deg, $light-green, $dark-green);
+    background-position: 0% 0%;
+    border-radius: 5px;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $mono;
+    font-size: 1.25rem;
+    margin: 0 2px;
+    padding: 1rem 1.418rem 1.1rem;
+    position: relative;
+    transition: 0.4s ease all;
+    z-index: 2;
+
+    &:hover {
+      background: linear-gradient(180deg, darken($light-green, 5%), darken($dark-green, 5%));
+
+      &::after {
+        bottom: -2rem;
+        opacity: 1;
+        transition-delay: 0.75s;
+      }
+    }
+
+    &:active {
+      background: linear-gradient(0deg, $light-green, $dark-green);
+    
+      &::after {
+        content: '';
+        opacity: 0;
+        transition-delay: 0s;
+      }
+    }
+
+    &::after {
+      bottom: 0;
+      color: $black;
+      content: 'do it';
+      font-family: 'Roboto';
+      font-size: 0.75rem;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      transition: 0.75s ease all;
+      transition-delay: 0;
+      width: 100%;
+      z-index: 0;
     }
   }
 
@@ -110,7 +157,7 @@
       height: 2rem;
     }
 
-    a {
+    a:not(.register) {
       color: $gray;
       display: inline-block;
       font-family: $mono;
@@ -146,31 +193,13 @@
   margin-left: 2px;
 }
 
-
-
 @keyframes fade-in-scale {
-   0% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
-  25% { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
+  0%   { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
+  25%  { opacity: 0; transform: scale(0.92) translate3d(-54%, -59%, 0); }
   100% { opacity: 1; transform: scale(1) translate3d(-50%, -55%, 0); }
 }
 
 @keyframes animate-bg-gradient {
-    0% { background-position: 0% 0%; }
+  0%   { background-position: 0% 0%; }
   100% { background-position: 100% 100%; }
 }
-
-@keyframes devfest {
-   0% { text-shadow: 5px 5px $green, 10px 10px $yellow; }
-  11% { text-shadow: 1px 1px $yellow, 6px 6px $green, 10px 10px $yellow; }
-  22% { text-shadow: 2px 2px $yellow, 7px 7px $green, 10px 10px $yellow; }
-  33% { text-shadow: 3px 3px $yellow, 8px 8px $green, 10px 10px $yellow; }
-  44% { text-shadow: 4px 4px $yellow, 9px 9px $green, 10px 10px $yellow; }
-  55% { text-shadow: 5px 5px $yellow, 10px 10px $green; }
-  66% { text-shadow: 4px 4px $yellow, 9px 9px $green, 10px 10px $yellow; }
-  77% { text-shadow: 3px 3px $yellow, 8px 8px $green, 10px 10px $yellow; }
-  88% { text-shadow: 2px 2px $yellow, 7px 7px $green, 10px 10px $yellow; }
-  100% { text-shadow: 1px 1px $yellow, 6px 6px $green, 10px 10px $yellow; }
-}
-
-
-
