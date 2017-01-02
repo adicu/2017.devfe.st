@@ -178,3 +178,11 @@ gulp.task('serve', ['build'], function() {
   // all browsers reload after tasks are complete.
   gulp.start(['watch']);
 });
+
+gulp.task('deploy', ['build:optimized'], function() {
+  gulp.src('')
+    .pipe(shell('scp -r dist/* root@adi-website:../srv/2017.devfe.st/public_html/'))
+    .on('finish', function() {
+      process.stdout.write('Deployed to devfe.st/');
+    });
+});
