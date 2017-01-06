@@ -1,3 +1,6 @@
+@import 'colors';
+@import 'typography';
+
 $content-width: 58.75rem;
 
 .content {
@@ -20,6 +23,105 @@ $content-width: 58.75rem;
   width: 50%;
 }
 
+.d-f-wrapper {
+  box-shadow: none;
+  display: block;
+  padding: 1rem 1.5rem;
+  position: fixed;
+  top: 0;
+  transition: 0.3s all;
+  width: 100%;
+  z-index: 1;
+
+  &.active-nav, &.menu-open {
+    // background: linear-gradient($white, lighten($teal, 20%));
+    background-color: $almost-white;
+    box-shadow: 0 0 15px $light-gray;
+    transition: 0.3s all;
+  }
+
+  .d-f {
+    font-size: 0;
+  }
+
+  .d, .f {
+    display: inline-block;
+    height: 32px;
+    padding: 0 3px;
+    transform: rotateY(0deg);
+    transition: 0.8s ease all;
+
+    &.hovering {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .d.hovering {
+    transform-origin: 25% 50%;
+  }
+
+  .f.hovering {
+    transform-origin: 75% 50%;
+  }
+
+  ul {
+    list-style: none;
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+    li {
+      display: inline-block;
+      line-height: 2;
+      margin: 0 10px;
+
+      a {
+        @include link-underline($black, $green);
+      }
+    }
+  }
+
+  #burger {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100%;
+
+    .patty {
+      background-color: $black;
+      border-radius: 2px;
+      height: 4px;
+      width: 30px;
+
+      &:not(:last-child) {
+        margin-bottom: 6px;
+      }
+    }
+
+    &.close {
+      .patty {
+        background-color: $transparent;
+      }
+
+      :first-child {
+        background-color: $black !important;
+        transform: rotate(45deg) translateX(14px);
+        width: 42px;
+      }
+
+      :last-child {
+        background-color: $black !important;
+        transform: rotate(-45deg) translateX(14px);
+        width: 42px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $phone-landscape-max) {
   .content {
     padding: 0;
@@ -35,5 +137,32 @@ $content-width: 58.75rem;
     display: block;
     float: none;
     width: 80%;
+  }
+
+  #burger {
+    display: block !important;
+  }
+
+  .d-f-wrapper ul {
+    background-color: $almost-white;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    padding: 1rem 0 4rem;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    transform: none;
+    width: 100%;
+
+    li {
+      display: block;
+      line-height: 2.5;
+    }
+
+    &.show {
+      display: block;
+      z-index: 10;
+    }
   }
 }

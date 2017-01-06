@@ -6,42 +6,6 @@
 @import 'layout';
 @import 'responsive';
 
-.d-f-wrapper {
-  box-shadow: none;
-  display: block;
-  padding: 1.5rem 0;
-  position: fixed;
-  top: 0;
-  transition: 0.3s all;
-  width: 100%;
-  z-index: 1;
-
-  &:hover {
-    box-shadow: 0 0 15px $light-gray;
-    transition: 0.15s all;
-  }
-
-  .d, .f {
-    display: inline-block;
-    height: 3rem;
-    padding: 0 2px;
-    transform: rotateY(0deg);
-    transition: 0.8s ease all;
-
-    &.hovering {
-      transform: rotateY(360deg);
-    }
-  }
-
-  .d.hovering {
-    transform-origin: 25% 50%;
-  }
-
-  .f.hovering {
-    transform-origin: 75% 50%;
-  }
-}
-
 .landing-page {
   background: linear-gradient(135deg, $light-gray, $white, $teal);
   background-position: 100% 100%;
@@ -111,7 +75,7 @@
 
     &:active {
       background: linear-gradient(0deg, $light-green, $dark-green);
-    
+
       &::after {
         content: '';
         opacity: 0;
@@ -158,33 +122,7 @@
     }
 
     a:not(.register) {
-      color: $gray;
-      display: inline-block;
-      font-family: $mono;
-      margin: 0 2px;
-      position: relative;
-
-      &::after {
-        background-color: $transparent;
-        border-radius: 10px;
-        bottom: 1px;
-        content: '';
-        height: 2px;
-        left: 45%;
-        position: absolute;
-        transition: 0.3s ease all;
-        width: 10%;
-      }
-
-      &:hover {
-        color: darken($gray, 10%);
-
-        &::after {
-          background-color: $green;
-          left: -5px;
-          width: calc(100% + 10px);
-        }
-      }
+      @include link-underline($gray, $green);
     }
   }
 }

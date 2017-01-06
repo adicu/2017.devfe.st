@@ -10,6 +10,36 @@ $light: 300;
 $sans: 'Roboto', Helvetica, sans-serif;
 $mono: 'Roboto Mono', monospace;
 
+@mixin link-underline($text-color, $line-color) {
+  color: $text-color;
+  display: inline-block;
+  font-family: $mono;
+  margin: 0 2px;
+  position: relative;
+
+  &::after {
+    background-color: $transparent;
+    border-radius: 10px;
+    bottom: 1px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+    transition: 0.3s ease all;
+    width: 10%;
+  }
+
+  &:hover {
+    color: darken($text-color, 10%);
+
+    &::after {
+      background-color: $line-color;
+      left: -4px;
+      width: calc(100% + 8px);
+    }
+  }
+}
+
 h1, %h1 {
   color: $black;
   font-family: $sans;

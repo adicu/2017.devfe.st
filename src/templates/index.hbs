@@ -1,11 +1,9 @@
 {{#extend "base"}}
 {{#content "main" mode="prepend"}}
-<div class="landing-page">
-	<a href="#" class="d-f-wrapper">
-		<img class="d" src="{{img.d}}"/>
-		<img class="f" src="{{img.f}}"/>
-	</a>
 
+{{> nav}}
+
+<div class="landing-page">
 	<div class="lion-wrapper">
 		<img class="lion" src="{{img.lion}}"/>
 	</div>
@@ -21,7 +19,7 @@
 
 
 	<div class="links">
-		<a class="register" href="{{typeform-link}}">register</a>
+		<a target="_blank" class="register" href="{{typeform-link}}">register</a>
 		<div class="left">
 			<ul>
 				<li class="two-px">hosted by <a href="https://adicu.com">ADI</a></li>
