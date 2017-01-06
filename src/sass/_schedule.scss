@@ -1,0 +1,75 @@
+@import 'colors';
+@import 'typography';
+
+#schedule {
+  background: linear-gradient(180deg, $teal, $light-gray);
+
+  .content {
+    z-index: 1 !important;
+  }
+}
+
+.separator h2 a {
+  position: relative;
+  // text-shadow: 0 0 5px $white, 0 0 10px lighten($gray, 20%), 0 0 20px $gray;
+  text-shadow: 0 0 $transparent, 0 0 $transparent;
+  transition: 0.4s ease all;
+
+  &::before, &::after {
+    background: $black;
+    content: '';
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &::before{
+    left: -1rem;
+    transform: translateX(-100%);
+  }
+
+  &::after {
+    right: -1rem;
+    transform: translateX(100%);
+  }
+
+  &:hover {
+    text-shadow: -5px -5px $trans-yellow, 5px 5px $trans-green;
+  }
+}
+
+.day-name a {
+  font-family: $mono;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 5rem;
+  margin-left: -2rem;
+  position: relative;
+  transition: 0.4s ease all;
+  z-index: 1;
+
+  &::after {
+    background: $yellow;
+    border-radius: 2px;
+    bottom: -0.5rem;
+    content: '';
+    height: 2rem;
+    left: -1rem;
+    position: absolute;
+    transition: 0.4s ease all;
+    width: 2rem;
+    z-index: -1;
+  }
+
+  &:hover {
+    letter-spacing: 4px;
+
+    &::after {
+      border-radius: 100px;
+      bottom: 0;
+      transition: 0.4s ease all;
+    }
+  }
+}

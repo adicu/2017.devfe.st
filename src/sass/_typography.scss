@@ -10,10 +10,9 @@ $light: 300;
 $sans: 'Roboto', Helvetica, sans-serif;
 $mono: 'Roboto Mono', monospace;
 
-@mixin link-underline($text-color, $line-color) {
+@mixin link-underline($text-color, $line-color, $hover-color) {
   color: $text-color;
   display: inline-block;
-  font-family: $mono;
   margin: 0 2px;
   position: relative;
 
@@ -30,7 +29,7 @@ $mono: 'Roboto Mono', monospace;
   }
 
   &:hover {
-    color: darken($text-color, 10%);
+    color: $hover-color;
 
     &::after {
       background-color: $line-color;
@@ -52,12 +51,14 @@ h1, %h1 {
 }
 
 h2, %h2 {
-  font-size: 1rem;
-  font-weight: $medium;
-  letter-spacing: 4px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
+  color: $black;
+  font-family: $sans;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: $extra-bold;
+  letter-spacing: -1px;
+  line-height: 8rem;
+  margin: 0;
 }
 
 h3, %h3 {

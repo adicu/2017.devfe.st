@@ -22,3 +22,50 @@ typeform-link: "https://adicu.typeform.com/to/VtGJY1"
 js:
   jquery-cdn: "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
   landing: "/js/landing.js"
+
+schedule:
+  - day: "Monday"
+    events:
+      - name: "Kickoff: Welcome to DevFest!"
+        time: "6:00 - 7:00 PM"
+        location: "TBA"
+        location-link: ""
+      - name: "Dinner"
+        time: "7:00 — 8:00 PM"
+        location: "CS Lounge"
+        location-link: ""
+      - name: "DevSpace"
+        time: "8:00 — 11 PM"
+        location: "TBA"
+        location-link: ""
+      - name: "Microlectures: Beginner, Web Dev, iOS"
+        time: "8:00 — 8:30 PM"
+        location: "TBA"
+        location-link: ""
+      - name: "Microlectures: Data Science, Hardware"
+        time: "8:30 — 9:00 PM"
+        location: "TBA"
+        location-link: ""
+  - day: "Tuesday"
+    events:
+      - name: "Dinner"
+        time: "7:00 — 8:00 PM"
+        location: "CS Lounge"
+        location-link: ""
+      - name: "DevSpace"
+        time: "8:00 — 11 PM"
+        location: "TBA"
+        location-link: ""
+      - name: "Microlectures: Beginner, Web Dev, iOS"
+        time: "8:00 — 8:30 PM"
+        location: "TBA"
+        location-link: ""
+      - name: "Microlectures: Data Science, Hardware"
+        time: "8:30 — 9:00 PM"
+        location: "TBA"
+        location-link: ""
+
+
+
+
+
