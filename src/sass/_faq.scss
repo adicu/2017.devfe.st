@@ -1,0 +1,35 @@
+.faq-section {
+  background: $black;
+  color: $very-light-gray;
+  padding-bottom: 4rem;
+  z-index: 2;
+
+  .content {
+    position: relative;
+  }
+
+  .separator {
+    padding-top: 2rem;
+
+    h2 a {
+	    color: $very-light-gray;
+
+	    &::before, &::after {
+	      background: $very-light-gray;
+	    }
+	}
+  }
+}
+
+.question {
+	color: $gray;
+	font-family: $mono;
+	margin: 1rem auto;
+}
+
+.answer {
+	color: $very-light-gray;
+	line-height: 1.618;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+}

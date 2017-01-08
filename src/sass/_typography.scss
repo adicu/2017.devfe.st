@@ -37,6 +37,19 @@ $mono: 'Roboto Mono', monospace;
       width: calc(100% + 8px);
     }
   }
+
+  @media screen and (max-width: $phone-landscape-max) {
+    &::after {
+      background-color: $line-color;
+      left: 0;
+      width: 100%;
+    }
+
+    &:hover::after {
+      left: 0;
+      width: 100%;
+    }
+  }
 }
 
 h1, %h1 {

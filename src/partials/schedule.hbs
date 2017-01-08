@@ -1,5 +1,4 @@
-
-<section id="schedule">
+<section class="schedule-section" id="schedule">
   <div class="separator">
     <h2><a href="#schedule" class="scrolly-link">Schedule</a></h2>
   </div>
@@ -7,16 +6,23 @@
   	{{#each schedule}}
   		<div class="day" id="{{day}}">
   			<h3 class="day-name"><a href="#{{day}}">{{day}}</a></h3>
-  			{{#each events}}
-  				<div class="event">
-  					<p>{{name}}</p>
-  					<p>{{time}}</p>
-  					<p>{{location}}</p>
-  					{{#if location-link}}
-  						<p>{{location-link}}</p>
-  					{{/if}}
-  				</div>
-  			{{/each}}
+          <table>
+            {{#each events}}
+              <tr class="event">
+                <td class="schedule-times"><span class="event-time">{{time}}</span></td>
+                <td class="event-details">
+                  <span class="event-name">{{name}}</span>
+        					<span class="event-location">
+          					{{#if location-link}}
+          						<a href="{{location-link}}">{{location}}</a>
+                    {{else}}
+                      {{location}}
+          					{{/if}}
+                  </span>
+                </td>
+              </tr>
+          {{/each}}
+        </table>
   		</div>
   	{{/each}}
 	</div>

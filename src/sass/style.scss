@@ -7,6 +7,17 @@
 @import 'responsive';
 
 @import 'schedule';
+@import 'faq';
+
+.lion {
+  height: 40%;
+  left: 50%;
+  max-width: 200%;
+  position: fixed;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
 
 .landing-page {
   background: linear-gradient(180deg, $light-gray, $white, $teal);
@@ -17,22 +28,9 @@
   position: relative;
   text-align: center;
 
-  .lion {
-    height: 40%;
-    left: 50%;
-    max-width: 200%;
-    position: fixed;
-    top: 45%;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-
-    .lion-wrapper {
-      height: 100%;
-    }
-	}
-
   .info-text {
     margin: 2rem auto;
+    z-index: 2;
 
     h3 {
       font-family: $mono;
@@ -50,6 +48,7 @@
     top: 45%;
     transform: translate(-50%, -50%);
     width: 80%;
+    z-index: 2;
   }
 
   .register {
@@ -111,6 +110,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     width: 80%;
+    z-index: 2;
 
     .left, .right {
       bottom: 0;
@@ -144,4 +144,10 @@
 @keyframes animate-bg-gradient {
   0%   { background-position: 0% 0%; }
   100% { background-position: 100% 100%; }
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  .lion {
+    opacity: 0.75;
+  }
 }

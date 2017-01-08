@@ -1,42 +1,24 @@
 @import 'colors';
 @import 'typography';
 
-#schedule {
+.schedule-section {
   background: linear-gradient(180deg, $teal, $light-gray);
+  padding-bottom: 4rem;
+
+  * {
+    z-index: 2;
+  }
 
   .content {
-    z-index: 1 !important;
-  }
-}
-
-.separator h2 a {
-  position: relative;
-  // text-shadow: 0 0 5px $white, 0 0 10px lighten($gray, 20%), 0 0 20px $gray;
-  text-shadow: 0 0 $transparent, 0 0 $transparent;
-  transition: 0.4s ease all;
-
-  &::before, &::after {
-    background: $black;
-    content: '';
-    height: 1px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    z-index: 1;
+    position: relative;
   }
 
-  &::before{
-    left: -1rem;
-    transform: translateX(-100%);
-  }
+  .separator h2 a {
+    color: $black;
 
-  &::after {
-    right: -1rem;
-    transform: translateX(100%);
-  }
-
-  &:hover {
-    text-shadow: -5px -5px $trans-yellow, 5px 5px $trans-green;
+    &::before, &::after {
+      background: $black;
+    }
   }
 }
 
@@ -48,7 +30,7 @@
   margin-left: -2rem;
   position: relative;
   transition: 0.4s ease all;
-  z-index: 1;
+  z-index: 2;
 
   &::after {
     background: $yellow;
@@ -70,6 +52,73 @@
       border-radius: 100px;
       bottom: 0;
       transition: 0.4s ease all;
+    }
+  }
+}
+
+.schedule-times {
+  line-height: 1.25rem;
+  padding-right: 1rem;
+  text-align: right;
+  width: 150px;
+}
+
+.day {
+  padding-bottom: 1rem;
+}
+
+.event {
+  line-height: 2;
+
+  .event-time {
+    font-family: $mono;
+    letter-spacing: -1px;
+  }
+
+  .event-name {
+    font-size: 1.2rem;
+  }
+
+  .event-location {
+    color: $gray;
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+
+    a {
+      @include link-underline($green, $green, $green);
+    }
+  }
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  .event {
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .day-name a {
+    margin-left: -1rem;
+  }
+
+  .schedule-times {
+    width: 120px;
+  }
+
+  .event-time {
+    margin: 0;
+  }
+
+  .event-details {
+    padding-bottom: 1rem;
+  }
+
+  .event .event-location {
+    display: block;
+    margin-left: 0;
+
+    a {
+      margin: 0;
+      padding-bottom: 2px;
     }
   }
 }

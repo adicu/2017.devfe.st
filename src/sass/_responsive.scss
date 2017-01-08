@@ -41,23 +41,6 @@
     display: block !important;
     position: relative !important;
   }
-
-  .landing-page {
-    .lion, .hero-text {
-      top: 40% !important;
-    }
-
-    .links {
-      bottom: auto !important;
-      top: 80% !important;
-
-      .left, .right {
-        margin: 2rem auto 0 !important;
-        position: relative !important;
-        text-align: center !important;
-      }
-    }
-  }
 }
 
 @media screen and (max-width: $phone-portrait-max) {

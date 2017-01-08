@@ -20,6 +20,7 @@ $(document).ready(function() {
   var _left = 50;
 
   moveLion = function() {
+    console.log(vh);
     var curScroll = w.scrollTop();
 
     if (curScroll < vh) {
@@ -31,17 +32,18 @@ $(document).ready(function() {
         'left': _left + '%'
       });
     }
+    else {
+      lion.css({
+        'height': '100%',
+        'left': '100%'
+      });
+    }
   }
 
   function getDistFromTop(element) {
-    var position = 0;
-
-    while(element) {
-        position += (element.offsetTop - element.scrollTop + element.clientTop);
-        element = element.offsetParent;
-    }
-
-    return position;
+    var distanceScrolled = document.body.scrollTop;
+    var distFromTop = element.getBoundingClientRect().top;
+    return distanceScrolled + distFromTop;
   }
 
   w.scroll(moveLion);
@@ -52,17 +54,21 @@ $(document).ready(function() {
     $('.d-f-wrapper').toggleClass("menu-open");
   });
 
-  // $('.d-f-wrapper a, .scrolly-link').each(function(i, el) {
-  //   $(el).click(function(e) {
-  //     console.log($(e.currentTarget.hash));
-  //     console.log(getDistFromTop($(e.currentTarget.hash)[0]));
-  //     // _y = $(e.currentTarget.hash)[0].getBoundingClientRect().top;
-  //     // $.scrollTo(_y, 50000);
-  //     $('html, body').animate({
-  //         scrollTop: getDistFromTop($(e.currentTarget.hash)[0])
-  //     }, 500);
-  //   })
-  // });
+  $('.scrolly-link').each(function(i, el) {
+    $(el).click(function(e) {
+      e.preventDefault();
+      _y = getDistFromTop($(e.currentTarget.hash)[0]);
+      navHeight = $('nav').innerHeight();
+      $.scrollTo(_y - navHeight, 500);
+    })
+  });
+
+  $('.top-link').each(function(i, el) {
+    $(el).click(function(e) {
+      e.preventDefault();
+      $.scrollTo(0, 500);
+    })
+  });
 
   function _easeInOutQuad(x, t, b, c, d) {
     if ((t /= d / 2) < 1) return c / 2 * t * t + b;
@@ -105,24 +111,4 @@ $(document).ready(function() {
     step();
   };
 
-
-
-
-
-
- //  var dfLock = false;
- //  var transitionDuration = 800;
-
-	// $('.d-f').hover(
-	// 	function() {
- //      if (!dfLock) {
- //        dfLock = true;
- //        $('.d, .f').addClass("hovering");
- //      }
- //    },
- //    function() {
- //      $('.d, .f').removeClass("hovering");
- //      dfLock = false;
- //    }
- //  );
 });
