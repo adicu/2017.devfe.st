@@ -21,51 +21,109 @@ typeform-link: "https://adicu.typeform.com/to/VtGJY1"
 
 js:
   jquery-cdn: "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
-  landing: "/js/landing.js"
+  index: "/js/index.js"
 
 schedule:
   - day: "Monday"
     events:
       - name: "Kickoff: Welcome to DevFest!"
-        time: "6:00 - 7:00 PM"
-        location: "TBA"
+        time: "6:00 — 7:00 PM"
+        location: "Location TBA"
         location-link: ""
       - name: "Dinner"
         time: "7:00 — 8:00 PM"
         location: "CS Lounge"
-        location-link: ""
-      - name: "DevSpace"
-        time: "8:00 — 11 PM"
-        location: "TBA"
-        location-link: ""
+        location-link: "http://www.cs.columbia.edu/resources/directions/"
       - name: "Microlectures: Beginner, Web Dev, iOS"
         time: "8:00 — 8:30 PM"
-        location: "TBA"
+        location: "Location TBA"
         location-link: ""
       - name: "Microlectures: Data Science, Hardware"
         time: "8:30 — 9:00 PM"
-        location: "TBA"
+        location: "Location TBA"
         location-link: ""
-  - day: "Tuesday"
+      - name: "DevSpace"
+        time: "8:00 — 11:00 PM"
+        location: "Location TBA"
+        location-link: ""
+  - day: "Tuesday-Thursday"
     events:
       - name: "Dinner"
         time: "7:00 — 8:00 PM"
         location: "CS Lounge"
-        location-link: ""
-      - name: "DevSpace"
-        time: "8:00 — 11 PM"
-        location: "TBA"
-        location-link: ""
+        location-link: "http://www.cs.columbia.edu/resources/directions/"
       - name: "Microlectures: Beginner, Web Dev, iOS"
         time: "8:00 — 8:30 PM"
-        location: "TBA"
+        location: "Location TBA"
         location-link: ""
       - name: "Microlectures: Data Science, Hardware"
         time: "8:30 — 9:00 PM"
-        location: "TBA"
+        location: "Location TBA"
+        location-link: ""
+      - name: "DevSpace"
+        time: "8:00 — 11:00 PM"
+        location: "Location TBA"
+        location-link: ""
+  - day: "Friday"
+    events:
+      - name: "API Demos"
+        time: "4:00 — 5:00 PM"
+        location: "Location TBA"
+        location-link: ""
+      - name: "Hacking begins!"
+        time: "5:00 PM"
+        location: "Location TBA"
+        location-link: ""
+      - name: "Dinner"
+        time: "7:30 — 8:30 PM"
+        location: "Location TBA"
+        location-link: ""
+  - day: "Saturday"
+    events:
+      - name: "Midnight Surprise"
+        time: "12:00 AM"
+        location: "Location TBA"
+        location-link: ""
+      - name: "Hacking ends"
+        time: "11:00 AM"
+        location: "Location TBA"
+        location-link: ""
+      - name: "Project Demos"
+        time: "11:00 AM — 2:00 PM"
+        location: "Location TBA"
+        location-link: ""
+      - name: "Post-hackathon Meet/Greet/Eat"
+        time: "2:00 — 3:00 PM"
+        location: "Location TBA"
         location-link: ""
 
-
-
-
+faq:
+  - question: "What is DevFest?"
+    answer: "DevFest is a week-long series of technical workshops held by ADI
+      culminating in a 24-hour hackathon. DevFest focuses on fostering community
+      and helping new developers end the week with a completed project."
+  - question: "Who can participate?"
+    answer: "Any student from the Columbia community (SEAS, CC, Barnard, General
+      Studies, or any of the graduate schools) can join!"
+  - question: "Where does the hackathon/workshops take place?"
+    answer: "Kickoff will be held in Davis Auditorium inside CEPSR. Technical
+      workshops will be held in several rooms inside of Mudd. The main hackathon
+      will be held inside Uris. Check the schedule for the most up-to-date locations."
+  - question: "Do I need experience?"
+    answer: "Students of all experience levels are welcome! New hackers can learn
+      to build websites with our Beginner Track, and experienced hackers can expand
+      their skillsets by working on the Web Development Track, iOS Development
+      Track, Data Science Track, or Product Track."
+  - question: "Do I have to come to the entire week?"
+    answer: "No, but be sure to register and attend as many events as you can.
+      We will have different company sponsors, tech talks, and activities every
+      night, so come to as many as you can!"
+  - question: "Will there be food?"
+    answer: "Yes! There will be dinner served every night during the workshops
+      and food throughout the week! If you have any food allergies, make sure
+      to state them when you register, or just email us."
+  - question: "Do I need a team or idea to sign up?"
+    answer: "No! Just come with a willingness to learn something new :)"
+  - question: "How big can my hackathon team be?"
+    answer: "The maximum team size is 5."
 
