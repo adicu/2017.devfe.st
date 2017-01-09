@@ -20,24 +20,24 @@ $(document).ready(function() {
   var _left = 50;
 
   moveLion = function() {
-    console.log(vh);
-    var curScroll = w.scrollTop();
+    // var curScroll = w.scrollTop();
 
-    if (curScroll < vh) {
-      _height = 100 * ((curScroll / vh) * 0.6 + 0.4);
-      _left = 100 * ((curScroll / vh) * 0.5 + 0.5);
+    // if (curScroll < vh) {
+    //   _height = 100 * ((curScroll / vh) * 0.6 + 0.4);
+    //   _left = 100 * ((curScroll / vh) * 0.5 + 0.5);
 
-      lion.css({
-        'height': _height + '%',
-        'left': _left + '%'
-      });
-    }
-    else {
-      lion.css({
-        'height': '100%',
-        'left': '100%'
-      });
-    }
+    //   lion.css({
+    //     'height': _height + '%',
+    //     'left': _left + '%'
+    //   });
+    // }
+    // else {
+    //   lion.css({
+    //     'height': '100%',
+    //     'left': '100%'
+    //   });
+    // }
+    console.log('nothing to see here :^)');
   }
 
   function getDistFromTop(element) {
