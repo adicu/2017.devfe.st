@@ -142,23 +142,25 @@ faq:
       and helping new developers end the week with a completed project."
   - question: "Who can participate?"
     answer: "Any student from the Columbia community (SEAS, CC, Barnard, General
-      Studies, or any of the graduate schools) can join!"
-  - question: "Where does DevFest take place?"
-    answer: "DevFest is held in a variety of locations. Check the schedule for the most up-to-date locations."
+      Studies, or any of the graduate schools) can register and participate."
   - question: "Do I need experience?"
     answer: "Students of all experience levels are welcome! If you've never programmed
       before, the Beginner Track is perfect for you. If you have prior experience, sharpen
       your skillset by working on the Web Development Track, iOS Development
       Track, or Data Science Track."
+  - question: "Where is the schedule?"
+    answer: "The detailed schedule will be released closer to the start of the event on this website.
+      The hackathon will begin on February 3rd."
   - question: "Do I have to come to the entire week?"
     answer: "No, but be sure to register and attend as many events as you can.
       We will have different company sponsors, tech talks, and activities every
       night, so come to as many as you can!"
   - question: "Will there be food?"
-    answer: "Yes! There will be dinner served every night and food throughout the week!
+    answer: "Yes! There will be dinner served every night and food throughout the hackathon!
       If you have any food allergies, make sure to state them when you register, or just email us."
   - question: "Do I need a team or idea to sign up?"
     answer: "No! Just come with a willingness to learn something new :)"
   - question: "How big can my hackathon team be?"
     answer: "The maximum team size is 5."
-
+  - question: "What if I don't have a team?"
+    answer: "Don't worry! At the start of the hackathon, we'll hold a team-formation session."
