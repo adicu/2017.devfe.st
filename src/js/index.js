@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   var w = $(window);
 
   if (w.scrollTop() > 0) {
@@ -15,6 +16,7 @@ $(document).ready(function() {
   });
 
   var vh = window.innerHeight;
+  var landingPage = $('.landing-page');
   var lion = $('#lion');
   var _height = 40;
   var _left = 50;
@@ -69,6 +71,35 @@ $(document).ready(function() {
       $.scrollTo(0, 500);
     })
   });
+
+  var md = new MobileDetect(window.navigator.userAgent);
+  if (md.mobile() !== null) {
+    // On mobile devices, freeze the hero.
+    freezeHero();
+    w.on('orientationchange', updateHero);
+  }
+
+  function freezeHero() {
+    // Set landing page height to pixel value.
+    landingPage.css({
+      height: landingPage.height()
+    });
+
+    // Set lion size / position to pixel value.
+    lion.css({
+      height: lion.height(),
+      top: lion.css('top')
+    });
+  }
+
+  function updateHero() {
+    // reset lion and landing page to initial values so they can resize
+    landingPage.removeAttr('style');
+    lion.removeAttr('style');
+
+    // then when everything has been layed out again, freeze at the new sizes
+    setTimeout(freezeHero, 500);
+  }
 
   function _easeInOutQuad(x, t, b, c, d) {
     if ((t /= d / 2) < 1) return c / 2 * t * t + b;
