@@ -7,8 +7,23 @@ $medium: 500;
 $regular: 400;
 $light: 300;
 
-$sans: 'Roboto', Helvetica, sans-serif;
-$mono: 'Roboto Mono', monospace;
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: local('avenir-medium-webfont'), url(/font/avenir-medium-webfont.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 700;
+  src: local('avenir_85_heavy-webfont'), url(/font/avenir_85_heavy.ttf) format('ttf');
+}
+
+
+$sans: 'Avenir', Helvetica, sans-serif;
+$mono: 'Inconsolata', monospace;
 
 @mixin link-underline($text-color, $line-color, $hover-color) {
   color: $text-color;
@@ -56,9 +71,8 @@ h1, %h1 {
   color: $black;
   font-family: $sans;
   font-size: 10rem;
-  font-style: italic;
-  font-weight: $extra-bold;
-  letter-spacing: -2px;
+  font-weight: $bold;
+  letter-spacing: -6px;
   line-height: 12rem;
   margin: 0;
 }
@@ -67,8 +81,7 @@ h2, %h2 {
   color: $black;
   font-family: $sans;
   font-size: 4rem;
-  font-style: italic;
-  font-weight: $extra-bold;
+  font-weight: $bold;
   letter-spacing: -1px;
   line-height: 8rem;
   margin: 0;
@@ -82,8 +95,9 @@ h3, %h3 {
 
 h4, %h4 {
   font-family: $mono;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 h5, %h5 {
@@ -101,6 +115,7 @@ strong {
 
 @media screen and (max-width: $phone-landscape-max) {
   h1, %h1 {
-    font-size: 6rem;
+    font-size: 6rem !important;
+    letter-spacing: -3px !important;
   }
 }

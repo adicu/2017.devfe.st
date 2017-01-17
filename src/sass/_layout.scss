@@ -61,7 +61,7 @@ $content-width: 58.75rem;
     }
 
     &:hover {
-      text-shadow: -5px -5px $trans-yellow, 5px 5px $trans-green;
+      text-shadow: -6px -6px $trans-yellow, 6px 6px $trans-green;
     }
   }
 }
@@ -182,6 +182,7 @@ footer {
       a {
         @include link-underline(lighten($gray, 25%), lighten($gray, 25%), lighten($gray, 25%));
         font-family: $mono;
+        font-size: 1.1rem;
         padding: 3px 1px;
       }
     }
