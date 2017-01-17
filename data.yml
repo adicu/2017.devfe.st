@@ -24,6 +24,20 @@ js:
   jquery-cdn: "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
   index: "/js/index.js"
 
+sponsors:
+  gold:
+    - "/img/sponsors/microsoft.png"
+  silver:
+    - "/img/sponsors/a16z.png"
+    - "/img/sponsors/capitalone.png"
+  bronze:
+    - "/img/sponsors/etsy.png"
+    - "/img/sponsors/hrt.png"
+    - "/img/sponsors/uber.png"
+    - "/img/sponsors/zapproved.png"
+  partner:
+    - "/img/sponsors/insomnia.webp"
+
 schedule:
   - day: "Monday"
     events:

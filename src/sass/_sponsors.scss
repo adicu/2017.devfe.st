@@ -1,0 +1,118 @@
+@import 'colors';
+@import 'typography';
+
+section.sponsors {
+  background: $almost-white;
+  color: $black;
+  padding-bottom: 4rem;
+  z-index: 2;
+
+  .content {
+    position: relative;
+    text-align: center;
+  }
+
+  .separator {
+    padding: 2rem 0;
+
+    h2 a {
+      color: $black;
+
+      &::before, &::after {
+        background: $black;
+      }
+    }
+  }
+}
+
+.gold, .silver, .bronze, .partner {
+  padding-bottom: 2rem;
+
+  h5 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  div {
+    display: inline-block;
+    max-width: 45%;
+    vertical-align: middle;
+
+    img {
+      vertical-align: middle;
+      width: 90%;
+    }
+  }
+}
+
+.gold {
+  color: $gold;
+
+  h5 {
+    font-size: 1.15rem;
+  }
+
+  div {
+    width: 500px;
+  }
+}
+
+.silver {
+  color: $silver;
+
+  h5 {
+    font-size: 1.05rem;
+  }
+
+  div {
+    width: 250px;
+  }
+}
+
+.bronze {
+  color: $bronze;
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  div {
+    max-width: 40%;
+    width: 150px;
+
+    img {
+      padding: 1rem;
+    }
+  }
+}
+
+.partner {
+  color: $black;
+
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  div {
+    max-width: 40%;
+    width: 150px;
+
+    img {
+      padding: 1rem;
+    }
+  }
+}
+
+.bloomberg {
+  padding: 2rem;
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  .bloomberg {
+    padding: 1rem;
+  }
+
+  .facebook {
+    padding: 1rem 0;
+  }
+}
