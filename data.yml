@@ -7,8 +7,8 @@ meta:
   twitter_handle: "@adicu"  # @minimill_co
   domain: "devfe.st"  # minimill.co
   url: "http://devfe.st"  # https://minimill.co
-  google_analytics_id: "" # UA-66637918-1
-  theme_color: "" # #FFFFFF
+  google_analytics_id: "UA-90533740-1" # UA-66637918-1
+  theme_color: "#9BD1D4" # #FFFFFF
 
 img:
   lion: "/img/lion.png"
