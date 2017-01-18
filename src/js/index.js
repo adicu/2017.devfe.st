@@ -88,7 +88,8 @@ $(document).ready(function() {
     // Set lion size / position to pixel value.
     lion.css({
       height: lion.height(),
-      top: lion.css('top')
+      top: lion.css('top'),
+      transform: 'translateX(-50%)'
     });
   }
 
