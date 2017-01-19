@@ -6,29 +6,29 @@
     <div class="gold">
       <h5>Gold Sponsors</h5>
       <!-- Special casing the bloomberg logo for padding -->
-        <div><img src="/img/sponsors/bloomberg.png" class="bloomberg" /></div>
+        <div><a href="https://bloomberg.com" ><img src="/img/sponsors/bloomberg.png" class="bloomberg" /></a></div>
       {{#each sponsors.gold}}
-        <div><img src="{{.}}" /></div>
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
       {{/each}}
     </div>
     <div class="silver">
       <h5>Silver Sponsors</h5>
       {{#each sponsors.silver}}
-        <div><img src="{{.}}" /></div>
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
       {{/each}}
         <!-- Special casing the facebook logo for padding -->
-        <div><img src="/img/sponsors/facebook.jpg" class="facebook" /></div>
+        <div><a href="https://facebook.com/careers"><img src="/img/sponsors/facebook.jpg" class="facebook" /></a></div>
     </div>
     <div class="bronze">
       <h5>Bronze Sponsors</h5>
       {{#each sponsors.bronze}}
-        <div><img src="{{.}}" /></div>
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
       {{/each}}
     </div>
     <div class="partner">
       <h5>Partners</h5>
       {{#each sponsors.partner}}
-        <div><img src="{{.}}" /></div>
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
       {{/each}}
     </div>
 	</div>

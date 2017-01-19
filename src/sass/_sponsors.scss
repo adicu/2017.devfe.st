@@ -38,6 +38,12 @@ section.sponsors {
     max-width: 45%;
     vertical-align: middle;
 
+    a {
+      cursor: pointer;
+      font-size: 0;
+      text-decoration: none;
+    }
+
     img {
       vertical-align: middle;
       width: 90%;

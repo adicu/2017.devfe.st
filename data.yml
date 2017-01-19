@@ -26,17 +26,25 @@ js:
 
 sponsors:
   gold:
-    - "/img/sponsors/microsoft.png"
+    - img: "/img/sponsors/microsoft.png"
+      link: "https://microsoft.com"
   silver:
-    - "/img/sponsors/a16z.png"
-    - "/img/sponsors/capitalone.png"
+    - img: "/img/sponsors/a16z.png"
+      link: "https://a16z.com"
+    - img: "/img/sponsors/capitalone.png"
+      link: "https://www.capitalone.io"
   bronze:
-    - "/img/sponsors/etsy.png"
-    - "/img/sponsors/hrt.png"
-    - "/img/sponsors/uber.png"
-    - "/img/sponsors/zapproved.png"
+    - img: "/img/sponsors/etsy.png"
+      link: "https://etsy.com"
+    - img: "/img/sponsors/hrt.png"
+      link: "http://hudson-trading.com"
+    - img: "/img/sponsors/uber.png"
+      link: "https://lyft.com"
+    - img: "/img/sponsors/zapproved.png"
+      link: "https://zapproved.com"
   partner:
-    - "/img/sponsors/insomnia.png"
+    - img: "/img/sponsors/insomnia.png"
+      link: "https://insomniacookies.com"
 
 schedule:
   - day: "Monday"
