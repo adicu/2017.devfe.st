@@ -89,6 +89,11 @@ section.sponsors {
     img {
       padding: 1rem;
     }
+
+    &.rdv {
+      max-width: 35%;
+      width: 135px;
+    }
   }
 }
 
