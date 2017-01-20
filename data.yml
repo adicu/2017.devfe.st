@@ -24,6 +24,7 @@ js:
   jquery-cdn: "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
   index: "/js/index.js"
 
+# some sponsors's images are hardcoded to adjust sizing
 sponsors:
   gold:
     - img: "/img/sponsors/microsoft.png"
