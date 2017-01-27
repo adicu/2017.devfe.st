@@ -59,6 +59,24 @@ sponsors:
     - img: "/img/sponsors/insomnia.png"
       link: "https://insomniacookies.com"
 
+judges:
+  - name: "Peter Boyce II"
+    link: "http://generalcatalyst.com/team/peter-boyce-ii/"
+    img:  "/img/judges/pb.jpg"
+    bio:  "Partner at General Catalyst"
+  - name: "Rebecca Conley"
+    link: ""
+    img:  "/img/judges/rc.jpg"
+    bio:  "Board Member at Django Foundation"
+  - name: "Kaitlin Thaney"
+    link: ""
+    img:  "/img/judges/kt.jpg"
+    bio:  "Director at Mozilla"
+  - name: "Chris Wiggins"
+    link: ""
+    img:  "/img/judges/cw.jpg"
+    bio:  "Chief Data Scientist at New York Times"
+
 schedule:
   - day: "Monday, Jan 30"
     id: "monday"

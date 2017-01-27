@@ -1,0 +1,42 @@
+.judges {
+  background: $black;
+  color: $very-light-gray;
+  padding-bottom: 4rem;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+
+  .separator {
+    padding-top: 2rem;
+
+    h2 a {
+      color: $very-light-gray;
+
+      &::before, &::after {
+        background: $very-light-gray;
+      }
+    }
+  }
+
+  .content {
+    padding: 2rem 0;
+    position: relative;
+  }
+}
+
+.judge {
+  display: inline-block;
+
+  .photo {
+    background: url(img/lion.png) no-repeat center center;
+    background-size: 200px;
+    border-radius: 1000px;
+    height: 200px;
+    transition: 0.4s ease all;
+    width: 200px;
+
+    &:hover {
+      background-size: 240px;
+    }
+  }
+}
