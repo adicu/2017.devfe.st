@@ -131,7 +131,7 @@ schedule:
         location-link: ""
   - day: "Wednesday, Feb 1"
     events:
-      - name: "Dinner sponsored by ADI"
+      - name: "Dinner"
         time: "6:45 PM"
         location: "CS Lounge"
         location-link: "http://www.cs.columbia.edu/resources/directions/"
@@ -155,7 +155,7 @@ schedule:
         location-link: ""
   - day: "Thursday, Feb 2"
     events:
-      - name: "Dinner and Civic Tech Panel"
+      - name: "Dinner"
         time: "6:45 PM"
         location: "CS Lounge"
         location-link: "http://www.cs.columbia.edu/resources/directions/"
@@ -165,6 +165,10 @@ schedule:
         location-link: ""
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
+      - name: "Civic Tech Panel"
+        time: "8:00 — 9:00 PM"
+        location: ""
+        location-link: ""
       - name: "Lyft Tech Talk"
         time: "9:00 — 10:00 PM"
         location: ""
