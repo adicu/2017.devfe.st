@@ -43,6 +43,18 @@ sponsors:
       link: "https://lyft.com"
     - img: "/img/sponsors/zapproved.png"
       link: "https://zapproved.com"
+  nonprofit:
+    - img: "/img/sponsors/brown.png"
+      link: "http://brown.stanford.edu"
+    - img: "/img/sponsors/django.png"
+      link: "https://www.djangoproject.com"
+    - img: "/img/sponsors/nycopendata.png"
+      link: "https://nycopendata.socrata.com/"
+    - img: "/img/sponsors/python.png"
+      link: "https://www.python.org/psf"
+    - img: "/img/sponsors/robinhood.png"
+      link: "https://www.robinhood.org"
+
   partner:
     - img: "/img/sponsors/insomnia.png"
       link: "https://insomniacookies.com"
@@ -62,7 +74,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
@@ -98,7 +110,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
@@ -138,7 +150,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Tech Elective: Web Scraping, presented by CDSS"
@@ -162,7 +174,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Civic Tech Panel"

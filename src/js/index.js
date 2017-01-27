@@ -47,8 +47,6 @@ $(document).ready(function() {
     return distanceScrolled + distFromTop;
   }
 
-  w.scroll(moveLion);
-
   $('#burger').click(function(e) {
     $(e.currentTarget).toggleClass("close");
     $('.d-f-wrapper ul').toggleClass("show");
@@ -76,6 +74,9 @@ $(document).ready(function() {
     // On mobile devices, freeze the hero.
     freezeHero();
     w.on('orientationchange', updateHero);
+  } else {
+    // only animate the lion on desktop cause it looks like shite on mobile
+    w.scroll(moveLion);
   }
 
   function freezeHero() {

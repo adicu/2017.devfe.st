@@ -124,6 +124,11 @@ section.sponsors {
   width: 300px !important;
 }
 
+.nonprofit {
+  max-width: 75% !important;
+  width: 200px !important;
+}
+
 @media screen and (max-width: $phone-landscape-max) {
   .bloomberg {
     padding: 1rem;

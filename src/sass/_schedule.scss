@@ -2,7 +2,7 @@
 @import 'typography';
 
 .schedule-section {
-  background: linear-gradient(180deg, $teal, $light-gray);
+  background: linear-gradient(180deg, $teal, $very-light-gray);
   padding-bottom: 4rem;
 
   * {
@@ -80,7 +80,7 @@
   }
 
   .event-location {
-    color: $gray;
+    color: $dark-gray;
     font-size: 0.85rem;
     margin-left: 0.5rem;
 
