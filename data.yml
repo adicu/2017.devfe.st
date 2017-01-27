@@ -74,7 +74,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
@@ -110,7 +110,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
@@ -150,7 +150,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Tech Elective: Web Scraping, presented by CDSS"
@@ -174,7 +174,7 @@ schedule:
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
-        location-link: ""
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Lyft Tech Talk"
