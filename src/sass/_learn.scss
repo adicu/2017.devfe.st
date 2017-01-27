@@ -1,0 +1,36 @@
+.learn {
+  background: $almost-white;
+  color: $black;
+  padding-bottom: 4rem;
+  position: relative;
+  z-index: 2;
+
+  .separator {
+    padding-top: 2rem;
+
+    h2 a {
+      color: $black;
+
+      &::before, &::after {
+        background: $black;
+      }
+    }
+  }
+
+  .content {
+    padding: 2rem 0;
+    position: relative;
+    text-align: center;
+
+    h3 {
+      font-size: 2rem;
+
+      a {
+        @include link-underline($black, $green, lighten($black, 10%));
+
+        font-weight: 700;
+        line-height: 1.3;
+      }
+    }
+  }
+}

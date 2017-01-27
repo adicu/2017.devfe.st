@@ -61,6 +61,7 @@ sponsors:
 
 schedule:
   - day: "Monday, Jan 30"
+    id: "monday"
     events:
       - name: "Kickoff: Welcome to DevFest!"
         time: "6:00 — 7:00 PM"
@@ -104,6 +105,7 @@ schedule:
         location: "CS Lounge"
         location-link: ""
   - day: "Tuesday, Jan 31"
+    id: "tuesday"
     events:
       - name: "Dinner Hosted by Microsoft"
         time: "6:45 PM"
@@ -144,6 +146,7 @@ schedule:
         location: "CS Lounge"
         location-link: "http://www.cs.columbia.edu/resources/directions/"
   - day: "Wednesday, Feb 1"
+    id: "wednesday"
     events:
       - name: "Dinner"
         time: "6:45 PM"
@@ -168,6 +171,7 @@ schedule:
         location: "CS Lounge"
         location-link: "http://www.cs.columbia.edu/resources/directions/"
   - day: "Thursday, Feb 2"
+    id: "thursday"
     events:
       - name: "Dinner"
         time: "6:45 PM"
@@ -198,6 +202,7 @@ schedule:
         location: "CEPSR 750"
         location-link: ""
   - day: "Friday, Feb 3"
+    id: "friday"
     events:
       - name: "Hackathon Kickoff"
         time: "4:00 — 5:00 PM"
@@ -217,6 +222,7 @@ schedule:
         location: "Uris Library"
         location-link: "http://library.columbia.edu/locations/map.html?location=business"
   - day: "Saturday, Feb 4"
+    id: "saturday"
     events:
       - name: "Hacking Ends"
         time: "11:00 AM"
