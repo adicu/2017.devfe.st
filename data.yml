@@ -56,7 +56,7 @@ schedule:
         location-link: ""
         desc: "Join us as we kick off DevFest with a keynote speaker, hand out custom swag bags, and explain everything that's happening during the week."
       - name: "Dinner hosted by Bloomberg"
-        time: "7:00 — 8:00 PM"
+        time: "7:00 — 8:30 PM"
         location: ""
         location-link: ""
       - name: "DevSpace"
