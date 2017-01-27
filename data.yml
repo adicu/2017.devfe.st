@@ -183,7 +183,7 @@ schedule:
         time: "4:00 — 5:00 PM"
         location: "Location TBA"
         location-link: ""
-        desc: "Join us at Hackathon Kickoff as we go over the rules, host API Demos, and showcase the amazing prizes you can win."
+        desc: "Join us at Hackathon Kickoff where we'll go over the rules, host API Demos, and showcase the amazing prizes you can win."
       - name: "Hacking begins!"
         time: "5:00 PM"
         location: "Uris Library"
@@ -219,17 +219,17 @@ faq:
   - question: "Who can participate?"
     answer: "Any student from the Columbia community (SEAS, CC, Barnard, General
       Studies, or any of the graduate schools) can register and participate."
-  - question: "Do I need experience?"
+  - question: "Do I need experience? What will I learn at DevFest?"
     answer: "Students of ALL experience levels are welcome! If you've never programmed
-      before, the Beginner Track is perfect for you. If you have prior experience, sharpen
-      your skillset by working on the Web Development Track, iOS Development
+      before, the Beginner Track is perfect for you. The Beginner Track will teach you how to build your own website, and requires no prior programming experience.
+      If you do have prior experience, sharpen your skillset by working on the Web Development Track, iOS Development
       Track, or Data Science Track."
-  - question: "Where is the schedule?"
-    answer: "The detailed schedule will be released closer to the start of the event on this website.
-      The hackathon will begin on February 3rd."
+  - question: "What is the DevSpace?"
+    answer: "The DevSpace, located in Carleton Commons, is where you can work on any of the 4 DevFest Tracks with the help of TAs and peers.
+            The DevSpace will be open 8 - 11 pm, Monday through Thursday."
   - question: "Do I have to come to the entire week?"
     answer: "No, but be sure to register and attend as many events as you can.
-      We will have different company sponsors, tech talks, and activities every
+      We will have different company sponsors, tech electives, and fun activities every
       night, so come to as many as you can!"
   - question: "Will there be food?"
     answer: "Yes! There will be dinner served every night and food throughout the hackathon!
