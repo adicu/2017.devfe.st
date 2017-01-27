@@ -227,6 +227,9 @@ faq:
   - question: "What is the DevSpace?"
     answer: "The DevSpace, located in Carleton Commons, is where you can work on any of the 4 DevFest Tracks with the help of TAs and peers.
             The DevSpace will be open 8 - 11 pm, Monday through Thursday."
+  - question: "What are the DevFest Tracks?"
+    answer: "The DevFest Tracks are a collection of self-paced comprehensive online tutorials in a variety of technical subjects.
+            Each track teaches you how to build a fully-functional project from start to finish. We are offering 4 tracks this year: Beginner, Web Development, iOS Development, and Data Science."
   - question: "Do I have to come to the entire week?"
     answer: "No, but be sure to register and attend as many events as you can.
       We will have different company sponsors, tech electives, and fun activities every
