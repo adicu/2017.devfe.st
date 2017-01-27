@@ -48,7 +48,7 @@ sponsors:
       link: "https://insomniacookies.com"
 
 schedule:
-  - day: "Monday"
+  - day: "Monday, Jan 30"
     events:
       - name: "Kickoff: Welcome to DevFest!"
         time: "6:00 — 7:00 PM"
@@ -63,7 +63,8 @@ schedule:
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
         location-link: ""
-        desc: "Join us in Carleton Commons and work through any of the 4 DevFest Tracks with the help of TAs and peers."
+        desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
+              Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
         time: "8:30 — 9:00 PM"
         location: ""
@@ -88,7 +89,7 @@ schedule:
         time: "10:00 — 11:00 PM"
         location: ""
         location-link: ""
-  - day: "Tuesday"
+  - day: "Tuesday, Jan 31"
     events:
       - name: "Dinner sponsored by Microsoft"
         time: "6:45 PM"
@@ -98,7 +99,8 @@ schedule:
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
         location-link: ""
-        desc: "Join us in Carleton Commons and work through any of the 4 DevFest Tracks with the help of TAs and peers."
+        desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
+              Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
         time: "8:30 — 9:00 PM"
         location: ""
@@ -127,7 +129,7 @@ schedule:
         time: "9:30 — 11:00 PM"
         location: ""
         location-link: ""
-  - day: "Wednesday"
+  - day: "Wednesday, Feb 1"
     events:
       - name: "Dinner sponsored by ADI"
         time: "6:45 PM"
@@ -137,7 +139,8 @@ schedule:
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
         location-link: ""
-        desc: "Join us in Carleton Commons and work through any of the 4 DevFest Tracks with the help of TAs and peers."
+        desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
+              Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Tech Elective: Web Scraping, presented by CDSS"
         time: "9:00 — 10:00 PM"
         location: ""
@@ -150,7 +153,7 @@ schedule:
         time: "9:00 — 11:00 PM"
         location: ""
         location-link: ""
-  - day: "Thursday"
+  - day: "Thursday, Feb 2"
     events:
       - name: "Dinner and Civic Tech Panel"
         time: "6:45 PM"
@@ -160,7 +163,8 @@ schedule:
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
         location-link: ""
-        desc: "Join us in Carleton Commons and work through any of the 4 DevFest Tracks with the help of TAs and peers."
+        desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
+              Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Lyft Tech Talk"
         time: "9:00 — 10:00 PM"
         location: ""
@@ -173,12 +177,13 @@ schedule:
         time: "9:30 — 11:00 PM"
         location: ""
         location-link: ""
-  - day: "Friday"
+  - day: "Friday, Feb 3"
     events:
-      - name: "Hackathon Kickoff: API Demos, Prizes, and Rules"
+      - name: "Hackathon Kickoff"
         time: "4:00 — 5:00 PM"
         location: "Location TBA"
         location-link: ""
+        desc: "Join us at Hackathon Kickoff as we go over the rules, host API Demos, and showcase the amazing prizes you can win."
       - name: "Hacking begins!"
         time: "5:00 PM"
         location: "Uris Library"
@@ -191,7 +196,7 @@ schedule:
         time: "12:00 AM"
         location: "Uris Library"
         location-link: "http://library.columbia.edu/locations/map.html?location=business"
-  - day: "Saturday"
+  - day: "Saturday, Feb 4"
     events:
       - name: "Hacking ends"
         time: "11:00 AM"
@@ -201,6 +206,7 @@ schedule:
         time: "11:00 AM — 2:00 PM"
         location: "Location TBA"
         location-link: ""
+        desc: "Join us for Project Demos, where you'll get to demo your project and see all the cool things other teams have built."
       - name: "Post-Hackathon Meet/Greet/Eat"
         time: "2:00 — 3:00 PM"
         location: ""

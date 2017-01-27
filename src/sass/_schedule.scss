@@ -60,7 +60,7 @@
   line-height: 1.25rem;
   padding-right: 1rem;
   text-align: right;
-  width: 175px;
+  width: 185px;
 }
 
 .day {
@@ -87,6 +87,10 @@
     a {
       @include link-underline($green, $green, $green);
     }
+  }
+
+  .desc {
+    color: $dark-gray;
   }
 }
 
