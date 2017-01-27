@@ -29,6 +29,12 @@
         <div class="columbia-eng"><a href="https://developers.nytimes.com"><img src="/img/sponsors/nyt.svg"></a></div>
     </div>
     <div class="partner">
+      <h5>Nonprofit Partners</h5>
+      {{#each sponsors.nonprofit}}
+        <div class="nonprofit"><a href="{{link}}"><img src="{{img}}" /></a></div>
+      {{/each}}
+    </div>
+    <div class="partner">
       <h5>Partners</h5>
       {{#each sponsors.partner}}
         <div><a href="{{link}}"><img src="{{img}}" /></a></div>

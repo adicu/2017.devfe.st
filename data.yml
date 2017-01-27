@@ -43,6 +43,18 @@ sponsors:
       link: "https://lyft.com"
     - img: "/img/sponsors/zapproved.png"
       link: "https://zapproved.com"
+  nonprofit:
+    - img: "/img/sponsors/brown.png"
+      link: "http://brown.stanford.edu"
+    - img: "/img/sponsors/django.png"
+      link: "https://www.djangoproject.com"
+    - img: "/img/sponsors/nycopendata.png"
+      link: "https://nycopendata.socrata.com/"
+    - img: "/img/sponsors/python.png"
+      link: "https://www.python.org/psf"
+    - img: "/img/sponsors/robinhood.png"
+      link: "https://www.robinhood.org"
+
   partner:
     - img: "/img/sponsors/insomnia.png"
       link: "https://insomniacookies.com"
