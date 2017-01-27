@@ -4,7 +4,9 @@
   "description": "The Devfest 2017 website! Brought to you by https://adicu.com.",
   "license": "MIT",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "gulp-shell": "^0.5.2"
+  },
   "devDependencies": {
     "browser-sync": "^2.11.2",
     "gulp": "^3.9.1",
