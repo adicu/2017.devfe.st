@@ -225,7 +225,7 @@ schedule:
         desc: "Join us for Project Demos, where you'll get to demo your project and see all the cool things other teams have built."
       - name: "Post-Hackathon Meet/Greet/Eat"
         time: "2:00 — 3:00 PM"
-        location: "Davis Auditoriom"
+        location: "Davis Auditorium"
         location-link: ""
 
 faq:
