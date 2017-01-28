@@ -155,7 +155,7 @@ schedule:
               Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Tech Elective: Web Scraping, presented by CDSS"
         time: "9:00 — 10:00 PM"
-        location: "Mudd 303"
+        location: "Mudd 644"
         location-link: ""
       - name: "Tech Elective: Intro to Data Warehousing"
         time: "10:00 — 11:00 PM"
@@ -220,12 +220,12 @@ schedule:
         location-link: ""
       - name: "Project Demos, Prizes, and Lunch"
         time: "11:00 AM — 2:00 PM"
-        location: "Davis Auditoriom"
+        location: "Davis Auditorium"
         location-link: ""
         desc: "Join us for Project Demos, where you'll get to demo your project and see all the cool things other teams have built."
       - name: "Post-Hackathon Meet/Greet/Eat"
         time: "2:00 — 3:00 PM"
-        location: "Davis Auditoriom"
+        location: "Davis Auditorium"
         location-link: ""
 
 faq:
