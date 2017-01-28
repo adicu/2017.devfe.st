@@ -5,7 +5,9 @@
   <div class="content">
   	{{#each judges}}
   		<div class="judge">
-  			<div class="photo" style="background-image:url({{img}})"></div>
+  			<div class="photo" style="background-image:url({{img}})"><a href="{{link}}"></a></div>
+  			<h3>{{name}}</h3>
+  			<h6>{{bio}}</h4>
   		</div>
   	{{/each}}
 	</div>

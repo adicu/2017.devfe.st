@@ -1,7 +1,7 @@
 .judges {
   background: $black;
   color: $very-light-gray;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   position: relative;
   text-align: center;
   z-index: 2;
@@ -26,17 +26,38 @@
 
 .judge {
   display: inline-block;
+  max-width: 80%;
+  padding-bottom: 4rem;
+  width: 400px;
 
   .photo {
     background: url(img/lion.png) no-repeat center center;
     background-size: 200px;
     border-radius: 1000px;
     height: 200px;
+    margin: 0 auto;
     transition: 0.4s ease all;
     width: 200px;
 
-    &:hover {
+    &:hover, &:active {
       background-size: 240px;
     }
+
+    a {
+      border-radius: 1000px;
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
   }
+
+  h3 {
+    padding-top: 0.5rem;
+  }
+
+  h6 {
+    color: $gray;
+    font-family: $mono;
+  }
+
 }
