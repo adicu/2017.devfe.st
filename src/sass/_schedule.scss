@@ -92,6 +92,13 @@
   .desc {
     color: $dark-gray;
   }
+
+  .sched-img {
+    height: 240px;
+    width: 240px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: $phone-landscape-max) {
