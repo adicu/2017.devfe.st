@@ -63,7 +63,7 @@ judges:
   - name: "Peter Boyce II"
     link: "http://generalcatalyst.com/team/peter-boyce-ii/"
     img:  "/img/judges/pb.jpg"
-    bio:  "Partner, General Catalyst"
+    bio:  "VC, General Catalyst"
   - name: "Rebecca Conley"
     link: "https://www.djangoproject.com/foundation/"
     img:  "/img/judges/rc.jpg"
@@ -206,7 +206,7 @@ schedule:
         location: "CEPSR 750"
         location-link: ""
         desc: "Join us for a panel on civic technology, featuring John Paul Farmer (Director of Civic Innovation at Microsoft), 
-              Bill Cromie (Director of Emergent Technology at Robin Hood), and Adrienne Schoemeker (Senior Project Manager at the NYC Mayor’s Office)."
+              Bill Cromie (Director of Emergent Technology at Robin Hood), and Adrienne Schmoeker (Senior Project Manager at the NYC Mayor’s Office)."
       - name: "Lyft Tech Talk"
         time: "9:00 — 10:00 PM"
         location: "CS Lounge"
@@ -249,12 +249,12 @@ schedule:
       - name: "Project Demos, Prizes, and Lunch"
         time: "11:00 AM — 2:00 PM"
         location: "Davis Auditorium"
-        location-link: ""
+        location-link: "https://www.google.com/maps/place/Davis+Auditorium/@40.8095634,-73.9629235,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f63fc6dd5595:0xd1aee45c9c243eee!8m2!3d40.8095634!4d-73.9607348"
         desc: "Join us for Project Demos, where you'll get to demo your project and see all the cool things other teams have built."
       - name: "Post-Hackathon Meet/Greet/Eat"
         time: "2:00 — 3:00 PM"
         location: "Davis Auditorium"
-        location-link: ""
+        location-link: "https://www.google.com/maps/place/Davis+Auditorium/@40.8095634,-73.9629235,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f63fc6dd5595:0xd1aee45c9c243eee!8m2!3d40.8095634!4d-73.9607348"
 
 faq:
   - question: "What is DevFest?"

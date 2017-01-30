@@ -18,12 +18,12 @@
   }
 
   .content {
-    padding: 2rem 0;
+    padding: 8rem 0;
     position: relative;
     text-align: center;
 
     h3 {
-      font-size: 2rem;
+      font-size: 2.5rem;
 
       a {
         @include link-underline($black, $green, lighten($black, 10%));
