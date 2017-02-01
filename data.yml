@@ -220,8 +220,8 @@ schedule:
     events:
       - name: "Hackathon Kickoff"
         time: "4:00 — 5:00 PM"
-        location: "Location TBA"
-        location-link: ""
+        location: "NoCo 501"
+        location-link: "https://www.google.com/maps/place/The+Northwest+Corner+Building/@40.8100718,-73.964176,17z/data=!4m8!1m2!2m1!1snorthest+corner+building!3m4!1s0x89c2f63fa274f18d:0xca5281f7c76460fb!8m2!3d40.8101104!4d-73.9619646"
         desc: "Join us at Hackathon Kickoff where we'll go over the rules, host API Demos, and showcase the amazing prizes you can win."
       - name: "Hacking Begins!"
         time: "5:00 PM"
