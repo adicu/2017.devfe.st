@@ -207,10 +207,13 @@ schedule:
         location-link: "https://www.google.com/maps/place/Schapiro+Center,+New+York,+NY+10027/data=!4m2!3m1!1s0x89c2f63fbf7d6555:0xa6c0fc8d9ba8b9f9?sa=X&ved=0ahUKEwir85S87PDRAhWCPCYKHUR3CmsQ8gEIGTAA"
         desc: "Join us for a panel on civic technology, featuring John Paul Farmer (Director of Civic Innovation at Microsoft), 
               Bill Cromie (Director of Emergent Technology at Robin Hood), and Adrienne Schmoeker (Senior Project Manager at the NYC Mayor’s Office)."
-      - name: "Lyft Tech Talk"
+      - name: "Lyft Tech Talk: Debugging, Reverse-Engineering, and Hacking"
         time: "9:00 — 10:00 PM"
         location: "CS Lounge"
         location-link: "http://www.cs.columbia.edu/resources/directions/"
+        desc: "Lyft has hundreds of software engineers, dozens of whom work on its iOS and Android mobile apps.
+              In these production mobile apps, where logs aren’t easily accessible, debugging is super hard.
+              Join Adam Reis, SEAS ‘15 and software engineer on Lyft’s Autonomous team, in taking a look at some of the tools Lyft uses to debug its mobile apps, and exploring how these tools can be used to reverse-engineer (and sometimes hack) all of your favorite apps."
       - name: "Fun Activity: Coloring Books"
         time: "9:30 — 11:00 PM"
         location: "CEPSR 750"
