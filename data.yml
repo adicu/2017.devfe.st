@@ -205,8 +205,8 @@ schedule:
         time: "8:00 — 9:00 PM"
         location: "CEPSR 750"
         location-link: "https://www.google.com/maps/place/Schapiro+Center,+New+York,+NY+10027/data=!4m2!3m1!1s0x89c2f63fbf7d6555:0xa6c0fc8d9ba8b9f9?sa=X&ved=0ahUKEwir85S87PDRAhWCPCYKHUR3CmsQ8gEIGTAA"
-        desc: "Join us for a panel on civic technology, featuring John Paul Farmer (Director of Civic Innovation at Microsoft), 
-              Bill Cromie (Director of Emergent Technology at Robin Hood), and Adrienne Schmoeker (Senior Project Manager at the NYC Mayor’s Office)."
+        desc: "Join us for a panel on civic technology, featuring John Paul Farmer (Director of Civic Innovation at Microsoft),
+              Bill Cromie (Director of Emergent Technology at Robin Hood), Bruce Lincoln (co-founder of silicon Harlem), and Adrienne Schmoeker (Senior Project Manager at the NYC Mayor’s Office)."
       - name: "Lyft Tech Talk"
         time: "9:00 — 10:00 PM"
         location: "CS Lounge"
