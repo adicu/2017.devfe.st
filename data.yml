@@ -232,7 +232,7 @@ schedule:
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
-              Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
+              Tonight there will also be a Civic Tech Panel and a Lyft Tech Talk, running in parallel with the DevSpace."
       - name: "Civic Tech: Past, Present, & Future"
         time: "8:00 — 9:00 PM"
         location: "CEPSR 750"
