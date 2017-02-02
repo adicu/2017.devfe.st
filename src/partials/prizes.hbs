@@ -1,0 +1,30 @@
+<section class="prizes" id="prizes">
+  <div class="separator">
+    <h2><a href="#prizes" class="scrolly-link">Prizes</a></h2>
+  </div>
+  <div class="content">
+  	<div class="first-prize">
+  		<span class="dollas">$2000</span>
+  		<p class="desc">First Prize</p>
+  	</div>
+  	<div class="second-prize">
+  		<span class="dollas">$1500</span>
+  		<p class="desc">Second Prize</p>
+  	</div>
+  	<div class="third-prize">
+  		<span class="dollas">$1000</span>
+  		<p class="desc">Third Prize</p>
+  	</div>
+
+  	<div class="some-space-yo"></div>
+
+  	{{#each prizes}}
+  		<div class="prize">
+  			<p><span class="title">{{title}}</span></p>
+  			<p>sponsored by <span class="sponsor"><a href="{{sponsor-link}}">{{sponsor}}</a></span></p>
+  			<p class="reward">{{prize}}</p>
+  			<div class="{{lil-decoration}}"></div>
+  		</div>
+  	{{/each}}
+	</div>
+</section>

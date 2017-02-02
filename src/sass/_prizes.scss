@@ -1,0 +1,140 @@
+.prizes {
+  background: $dark-green;
+  color: $very-light-gray;
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+
+  .separator {
+    padding-top: 2rem;
+
+    h2 a {
+      color: $very-light-gray;
+
+      &::before, &::after {
+        background: $very-light-gray;
+      }
+
+      &:hover {
+      	text-shadow: 6px 6px $trans-yellow, -6px -6px $trans-black;
+      }
+    }
+  }
+
+  .content {
+    padding-bottom: 2rem;
+    position: relative;
+    text-align: center;
+  }
+}
+
+.dollas {
+	color: $very-light-gray;
+	font-family: $sans;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.desc {
+	color: $light-gray;
+	font-family: $mono;
+}
+
+.first-prize {
+	margin: 0 auto;
+	padding: 1rem 0;
+	text-align: center;
+
+	.dollas {
+		font-size: 5rem;
+	}
+
+	.desc {
+		font-size: 1.1rem;
+	}
+}
+
+.second-prize, .third-prize {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+
+	.dollas {
+		font-size: 3.5rem;
+	}
+
+	.desc {
+		font-size: 1rem;
+	}
+}
+
+.some-space-yo {
+  margin-bottom: 2rem;
+}
+
+.prize {
+  padding: 0.5rem 0;
+
+  p {
+    color: $light-gray;
+    font-family: $mono;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .title, .sponsor {
+    color: $very-light-gray;
+  }
+
+  .sponsor a {
+    @include link-underline($very-light-gray, $very-light-gray, $very-light-gray);
+
+    padding: 0 1px;
+  }
+
+  p.reward {
+    color: $very-light-gray;
+    font-family: $sans;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .square, .circle, .triangle {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .square, .circle {
+    background: $yellow;
+    height: 20px;
+    width: 20px;
+  }
+
+  .circle {
+    border-radius: 1000px;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 17.32px 10px;
+    border-color: transparent transparent $yellow transparent;
+  }
+}
+
+
+@media screen and (max-width: 940px) {
+  .first-prize .dollas {
+    font-size: 4rem;
+  }
+
+  .second-prize, .third-prize {
+  	.dollas {
+  		font-size: 2.5rem;
+  	}
+  }
+}
