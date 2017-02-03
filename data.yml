@@ -127,7 +127,7 @@ prizes:
     sponsor-link: "https://facebook.com/careers"
     title:   "Facebook's favorite hack"
     prize:   "$100 American Express gift cards for each member of the winning team"
-    lil-decoration: "square"
+    lil-decoration: ""
 
 schedule:
   - day: "Monday, Jan 30"
