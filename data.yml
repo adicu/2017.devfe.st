@@ -266,7 +266,7 @@ schedule:
         time: "7:30 — 8:30 PM"
         location: "Uris Library"
         location-link: "http://library.columbia.edu/locations/map.html?location=business"
-      - name: "Midnight Surprise"
+      - name: "Midnight Surprise: Insomnia Cookies"
         time: "12:00 AM"
         location: "Uris Library"
         location-link: "http://library.columbia.edu/locations/map.html?location=business"
